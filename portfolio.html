@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- TODO: สร้าง header -->
+    <header>
+      <h1>My portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#About_Section"> About section</a></li>
+          <li><a href="#Portfolio_Section">Portfolio section</a></li>
+          <li><a href="#Contract_Section">Contract section</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- TODO: สร้าง main ที่มี -->
+    <!-- 1. About section -->
+    <!--    - หัวข้อ -->
+    <!--    - รูปภาพตัวเอง <img> -->
+    <!--    - ข้อมูลประกอบ -->
+    <main>
+      <section id="About_Section">
+        <article>
+          <h1>เกี่ยวกับฉัน</h1>
+          <h2>รูปภาพตัวเอง</h2>
+          <p><img src="images1.jpg" alt="face" /></p>
+          <p>สวัสดีครับผมชื่อ นายณฐกร โกศินานนท์</p>
+        </article>
+      </section>
+
+      <!-- 2. Portfolio section --> 
+      <!--    - List of projects ใช้ <figure> และ <figcaption> -->
+      <section id="Portfolio_Section">
+        <h1>Portfolio section</h1>
+        <figure>
+          <img src="game.png" alt="meme" style="width: 20%" />
+          <figcaption>Fig.1 - meme.</figcaption>
+        </figure>
+      </section>
+
+      <!-- 3. Contact section -->
+      <!--    - Contact form -->
+      <section id="Contract_Section">
+        <form action="/register" method="POST">
+          <fieldset>
+            <legend>ข้อมูลส่วนตัว</legend>
+
+            <p>นายณฐกร โกศินานนท์</p>
+            <p>นิสิตสาขา ITDI ชั้นปีที่ 2</p>
+            <p>Email: <strong>67160004@go.buu.ac.th</strong></p>
+            <p>Tel: <strong>097-109-0686</strong></p>
+  </section>
+        </form>
+      </section>
+    </main>
+    <footer> 
+      <p>&copy; 2025 My Tech Blog. All rights reserved.</p> 
+      <nav> 
+        <ul> 
+          <li><a href="#About_Section"> About section</a></li>
+          <li><a href="#Portfolio_Section">Portfolio section</a></li>
+          <li><a href="#Contract_Section">Contract section</a></li>
+        </ul> 
+      </nav> 
+    </footer> 
+  </body>
+</html>
